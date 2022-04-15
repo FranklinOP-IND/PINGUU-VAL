@@ -332,7 +332,7 @@ unsigned __stdcall cache(LPVOID lp)
 
 void InitializeMenu()
 {
-	menu.Header(xorstr_("Vanguard"));
+	menu.Header(xorstr_("Vanguard by - Pinguu / Frank"));
 
 	menu.AddTab(xorstr_("All"));
 	menu.AddItem(xorstr_("Team Select"), tSelect, 1, menu.items[0].value);
